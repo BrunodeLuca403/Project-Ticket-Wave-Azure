@@ -94,18 +94,3 @@ The solution is structured into the following layers:
 - Secure file storage using SAS tokens
 - Clean and maintainable architecture
 
----
-
-## 🔐 Configuration
-
-Sensitive configurations such as:
-
-- Cosmos DB connection string
-- Service Bus connection string
-- Blob Storage connection string
-- Payment gateway credentials
-
-Should be managed via environment variables or secure configuration providers.
-
----# TicketWaveAzure
-Projeto de venda de tickets utilizando ferramentas do aicrosoft Azure, como CosmosDB, Blob Storage, Service Bus.
